@@ -6,7 +6,7 @@ const puppeteer = require("puppeteer");
 
   // 1. Aternos login
   await page.goto("https://aternos.org/go/");
-  await page.type("#user", "YOUR_USERNAME");
+  await page.type("#user", "dttyagi-lol10110.aternos.me");
   await page.type("#password", "YOUR_PASSWORD");
   await page.click("#login");
   await page.waitForNavigation();
